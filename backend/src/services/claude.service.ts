@@ -103,7 +103,7 @@ Position the nodes in a logical flow that matches the diagram. Use x,y coordinat
     const response = await axios.post(
       CLAUDE_API_URL,
       {
-        model: 'claude-3-7-sonnet-20240620',
+        model: 'claude-3-5-sonnet-20241022',
         max_tokens: 4096,
         messages: [message]
       },
